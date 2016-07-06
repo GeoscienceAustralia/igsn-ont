@@ -1,0 +1,60 @@
+#
+#	for http://pid-test.geoscience.gov.au/sample/10273/AU239
+#
+
+# OWL for Sampling Features
+@prefix sam: <http://def.seegrid.csiro.au/ontology/om/sam-lite#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix igsn: <http://schema.igsn.org/description/1.0/> .
+# CGI Simple Lithology http://resource.geosciml.org/classifierscheme/cgi/201211/simplelithology
+@prefix lith: <http://resource.geosciml.org/classifier/cgi/lithology/> .
+#
+@prefix geot: <http://resource.geosciml.org/classifier/ics/ischart/>
+
+<http://pid-test.geoscience.gov.au/sample/10273/AU239> a sam:Specimen, prov:Entity ;
+	igsn:identifierType "IGSN"^^xsd:string ;
+	# dc:identifier
+	igsn:sampleId "10273/AU239"^^xsd:string ;
+	ga:
+	"2000362089A"^^xsd:string ;
+	# dc:coverage
+	sam:samplingLocation [
+		a sam:Point ;
+		
+	]
+	# dc:created
+	sam:samplingTime
+	igsn:sampleType "core"^^xsd:string ;
+	igsn:materialType lith:rock ;
+	igsn:materialType lith:granite ;
+	???:geologicalAge geot:Mesoproterozoic ;
+	igsn:collectionType "core diamond"^^xsd:string ;
+	
+	
+accessType
+collectionType
+contributorType
+featureType
+geometryType
+
+materialType
+methodType
+relationType
+resourceType
+sampleType
+sridType dc:type
+sampleName dc:title
+
+dc:contributor
+	samplingLocation	 
+dc:creator	sampleCollector	 
+dc:date	samplingTime	 
+dc:description	comments	 
+dc:format	materialType	 
+dc:identifier	IGSN
+dc:language
+dc:publisher	sampleCurator	 
+dc:relation	relatedResources
+dc:rights
+dc:source
+dc:subject	classification
