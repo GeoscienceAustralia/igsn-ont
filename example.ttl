@@ -31,19 +31,6 @@
 	igsn:collectionType "core diamond"^^xsd:string ;
 	
 	
-accessType
-collectionType
-contributorType
-featureType
-geometryType
-
-materialType
-methodType
-relationType
-resourceType
-sampleType
-sridType dc:type
-sampleName dc:title
 
 dc:contributor
 	samplingLocation	 
