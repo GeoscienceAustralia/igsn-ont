@@ -94,13 +94,6 @@
 #
 #	Concepts
 #
-:Access a skos:Concept ;
-	skos:prefLabel "Access"@en ;
-	skos:definition "IGSN's accessType Access"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> 
-	skos:narrower :Private , :Public .
-	
 :Private a skos:Concept ;
 	skos:prefLabel "Private"@en ;
 	skos:definition "IGSN's accessType Private"@en ;
@@ -119,264 +112,208 @@
 	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
 	skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
-:Contributor a skos:Concept ;
-	skos:prefLabel "Contributor Type"@en ;
-	skos:definition "An agent that contributes"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:narrower :ContactPerson , :Distributor , :Editor , :Funder , :HostingInstitution , :Other , :ProjectLeader , :ProjectManager , :ProjectMember , :RelatedPerson , :ResearchGroup , :RightsHolder , :Researcher , :Sponsor , :Supervisor , :WorkPackageLeader .
-
 :ContactPerson a skos:Concept ;
 	skos:prefLabel "Contact Person"@en ;
 	skos:definition "A contact person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Distributor a skos:Concept ;
 	skos:prefLabel "Distributor"@en ;
 	skos:definition "a distributing agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Editor a skos:Concept ;
 	skos:prefLabel "Editor"@en ;
 	skos:definition "an editing person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Funder a skos:Concept ;
 	skos:prefLabel "Funder"@en ;
 	skos:definition "A funding person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :HostingInstitution a skos:Concept ;
 	skos:prefLabel "Hosting Institution"@en ;
 	skos:definition "A hosting institution agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Other a skos:Concept ;
 	skos:prefLabel "Other"@en ;
 	skos:definition "A contributing agent not elsewhere in the contributorType list"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :ProjectLeader a skos:Concept ;
 	skos:prefLabel "Project Leader"@en ;
 	skos:definition "A project leader person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :ProjectManager a skos:Concept ;
 	skos:prefLabel "Project Manager"@en ;
 	skos:definition "A project manager person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :ProjectMember a skos:Concept ;
 	skos:prefLabel "Project Member"@en ;
 	skos:definition "A project member person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :RelatedPerson a skos:Concept ;
 	skos:prefLabel "Related Person"@en ;
 	skos:definition "A related person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :ResearchGroup a skos:Concept ;
 	skos:prefLabel "Research Group"@en ;
 	skos:definition "A research group agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :RightsHolder a skos:Concept ;
 	skos:prefLabel "Rights Holder"@en ;
 	skos:definition "A rights holding agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Researcher a skos:Concept ;
 	skos:prefLabel "Researcher"@en ;
 	skos:definition "A researcher person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Sponsor a skos:Concept ;
 	skos:prefLabel "Sponsor"@en ;
 	skos:definition "A sponsoring agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Supervisor a skos:Concept ;
 	skos:prefLabel "Supervisor"@en ;
 	skos:definition "A supervising person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :WorkPackageLeader a skos:Concept ;
 	skos:prefLabel "WorkPackageLeader"@en ;
 	skos:definition "A work package leader person agent"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Contributor .
-	
-:Geometry a skos:Concept ;
-	skos:prefLabel "Geometry Type"@en ;
-	skos:definition "IGSN's geometryType Geometry"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:narrower :LineString , :MultiLineString , :Point , :MultiPoint , :Polygon , :MultiPolygon .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :LineString a skos:Concept ;
 	skos:prefLabel "Line String"@en ;
 	skos:definition "A line string"@en ;
 	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Geometry ;
 	skos:exactMatch gml:LineString .
 	
 :MultiLineString a skos:Concept ;
 	skos:prefLabel "Multi-Line String"@en ;
 	skos:definition "A multi-line string"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Geometry .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Point a skos:Concept ;
 	skos:prefLabel "Point"@en ;
 	skos:definition "A point"@en ;
 	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Geometry ;
 	skos:exactMatch gml:Point .
 	
 :MultiPoint a skos:Concept ;
 	skos:prefLabel "Multi-Point"@en ;
 	skos:definition "A multi-point"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Geometry .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Polygon a skos:Concept ;
 	skos:prefLabel "Polygon"@en ;
 	skos:definition "A polygon"@en ;
 	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Geometry .
 	skos:exactMatch gml:Polygon .
 	
 :MultiPolygon a skos:Concept ;
 	skos:prefLabel "Multi-Polygon"@en ;
 	skos:definition "A multi-polygon"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Geometry .
-
-:Identifier a skos:Concept ;
-	skos:prefLabel "Identifier Type"@en ;
-	skos:definition "IGSN's identifierType Identifier"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:narrower :ARK , :DOI , :Handle , :IGSN , :ISBN , :ISNI , :ISSN , :LSID , :ORCID , :PURL , :URL , :URN , :VIAF .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists>.
 
 :ARK a skos:Concept ;
 	skos:prefLabel "Archival Resource Key"@en ;
 	skos:altLabel "ARK"@en.
 	skos:definition "An Archival Resource Key (ARK) is a Uniform Resource Locator (URL) that is a multi-purpose persistent identifier for information objects of any type."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Archival_Resource_Key"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :DOI a skos:Concept ;
 	skos:prefLabel "Digital Object Identifier"@en ;
 	skos:altLabel "DOI"@en.
 	skos:definition "A digital object identifier (DOI) is a type of persistent identifier used to uniquely identify objects. The DOI system is particularly used for electronic documents such as journal articles."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Digital_object_identifier"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :Handle a skos:Concept ;
 	skos:prefLabel "Handle"@en ;
 	skos:definition "The Handle System is a technology specification for assigning, managing, and resolving persistent identifiers for digital objects and other resources on the Internet."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Handle_System"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :IGSN a skos:Concept ;
 	skos:prefLabel "International Geo Sample Number"@en ;
 	skos:altLabel "IGSN"@en.
 	skos:definition "The International Geo Sample Number or IGSN is a sample identification code of typically nine characters. "@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Geo_Sample_Number"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ISBN a skos:Concept ;
 	skos:prefLabel "International Standard Book Number"@en ;
 	skos:altLabel "ISBN"@en.
 	skos:definition "The International Standard Book Number (ISBN) is a unique numeric commercial book identifier."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Book_Number"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :ISNI a skos:Concept ;
 	skos:prefLabel "International Standard Name Identifier"@en ;
 	skos:altLabel "ISNI"@en.
 	skos:definition "The International Standard Name Identifier (ISNI) is an identifier for uniquely identifying the public identities of contributors to media content such as books, TV programmes, and newspaper articles."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Name_Identifier"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :ISSN a skos:Concept ;
 	skos:prefLabel "International Standard Serial Number"@en ;
 	skos:altLabel "ISSN"@en.
 	skos:definition "An International Standard Serial Number (ISSN) is an eight-digit serial number used to uniquely identify a serial publication."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Serial_Number"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :LSID a skos:Concept ;
 	skos:prefLabel "Life Science Identifiers"@en ;
 	skos:altLabel "LSID"@en.
 	skos:definition "Life Science Identifiers are a way to name and locate pieces of information on the web. Essentially, an LSID is a unique identifier for some data, and the LSID protocol specifies a standard way to locate the data (as well as a standard way of describing that data)."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/LSID"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :ORCID a skos:Concept ;
 	skos:prefLabel "Open Researcher and Contributor ID"@en ;
 	skos:altLabel "ORCID"@en.
 	skos:definition "ORCID (Open Researcher and Contributor ID) is a nonproprietary alphanumeric code to uniquely identify scientific and other academic authors and contributors."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/ORCID"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :PURL a skos:Concept ;
 	skos:prefLabel "Persistent uniform resource locator"@en ;
 	skos:altLabel "PURL"@en.
 	skos:definition "A persistent uniform resource locator (PURL) is a uniform resource locator (URL) (i.e., location-based uniform resource identifier or URI) that is used to redirect to the location of the requested web resource."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 	
 :URL a skos:Concept ;
 	skos:prefLabel "Uniform Resource Locator"@en ;
 	skos:altLabel "URL"@en.
 	skos:definition "A Uniform Resource Locator (URL), commonly informally termed a web address (which term is not defined identically)[1] is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Uniform_Resource_Locator"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .	
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .	
 
 :URN a skos:Concept ;
 	skos:prefLabel "Uniform Resource Name"@en ;
 	skos:altLabel "URN"@en.
 	skos:definition "Uniform Resource Name (URN) is the historical name for a Uniform Resource Identifier (URI) that uses the urn scheme. A URI is a string of characters used to identify a name of a web resource. Such identification enables interaction with representations of the web resource over a network, typically the World Wide Web, using specific protocols."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Uniform_Resource_Name"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .	
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .	
 	
 :VIAF a skos:Concept ;
 	skos:prefLabel "Virtual International Authority File"@en ;
 	skos:altLabel "VIAF"@en.
 	skos:definition "The Virtual International Authority File (VIAF) is an international authority file. It is a joint project of several national libraries and operated by the Online Computer Library Center (OCLC)."@en ;
 	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Virtual_International_Authority_File"@en ;
-	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
-	skos:broader :Identifier .	
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .	
 
 #############################################################################
 #
