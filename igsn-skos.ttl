@@ -95,7 +95,7 @@
 #	Concepts
 #
 :Access a skos:Concept ;
-	skos:prefLabel "Private"@en ;
+	skos:prefLabel "Access"@en ;
 	skos:definition "IGSN's accessType Access"@en ;
 	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
 	skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> 
