@@ -268,16 +268,121 @@
 	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
 	skos:broader :Geometry .
 
-#############################################################################
-#
-# Up to here
-
 :Identifier a skos:Concept ;
 	skos:prefLabel "Identifier Type"@en ;
 	skos:definition "IGSN's identifierType Identifier"@en ;
 	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
 	skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
 	skos:narrower :ARK , :DOI , :Handle , :IGSN , :ISBN , :ISNI , :ISSN , :LSID , :ORCID , :PURL , :URL , :URN , :VIAF .
+
+:ARK a skos:Concept ;
+	skos:prefLabel "Archival Resource Key"@en ;
+	skos:altLabel "ARK"@en.
+	skos:definition "An Archival Resource Key (ARK) is a Uniform Resource Locator (URL) that is a multi-purpose persistent identifier for information objects of any type."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Archival_Resource_Key"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:DOI a skos:Concept ;
+	skos:prefLabel "Digital Object Identifier"@en ;
+	skos:altLabel "DOI"@en.
+	skos:definition "A digital object identifier (DOI) is a type of persistent identifier used to uniquely identify objects. The DOI system is particularly used for electronic documents such as journal articles."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Digital_object_identifier"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:Handle a skos:Concept ;
+	skos:prefLabel "Handle"@en ;
+	skos:definition "The Handle System is a technology specification for assigning, managing, and resolving persistent identifiers for digital objects and other resources on the Internet."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Handle_System"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:IGSN a skos:Concept ;
+	skos:prefLabel "International Geo Sample Number"@en ;
+	skos:altLabel "IGSN"@en.
+	skos:definition "The International Geo Sample Number or IGSN is a sample identification code of typically nine characters. "@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Geo_Sample_Number"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+
+:ISBN a skos:Concept ;
+	skos:prefLabel "International Standard Book Number"@en ;
+	skos:altLabel "ISBN"@en.
+	skos:definition "The International Standard Book Number (ISBN) is a unique numeric commercial book identifier."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Book_Number"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:ISNI a skos:Concept ;
+	skos:prefLabel "International Standard Name Identifier"@en ;
+	skos:altLabel "ISNI"@en.
+	skos:definition "The International Standard Name Identifier (ISNI) is an identifier for uniquely identifying the public identities of contributors to media content such as books, TV programmes, and newspaper articles."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Name_Identifier"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:ISSN a skos:Concept ;
+	skos:prefLabel "International Standard Serial Number"@en ;
+	skos:altLabel "ISSN"@en.
+	skos:definition "An International Standard Serial Number (ISSN) is an eight-digit serial number used to uniquely identify a serial publication."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Serial_Number"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:LSID a skos:Concept ;
+	skos:prefLabel "Life Science Identifiers"@en ;
+	skos:altLabel "LSID"@en.
+	skos:definition "Life Science Identifiers are a way to name and locate pieces of information on the web. Essentially, an LSID is a unique identifier for some data, and the LSID protocol specifies a standard way to locate the data (as well as a standard way of describing that data)."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/LSID"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:ORCID a skos:Concept ;
+	skos:prefLabel "Open Researcher and Contributor ID"@en ;
+	skos:altLabel "ORCID"@en.
+	skos:definition "ORCID (Open Researcher and Contributor ID) is a nonproprietary alphanumeric code to uniquely identify scientific and other academic authors and contributors."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/ORCID"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+
+:PURL a skos:Concept ;
+	skos:prefLabel "Persistent uniform resource locator"@en ;
+	skos:altLabel "PURL"@en.
+	skos:definition "A persistent uniform resource locator (PURL) is a uniform resource locator (URL) (i.e., location-based uniform resource identifier or URI) that is used to redirect to the location of the requested web resource."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .
+	
+:URL a skos:Concept ;
+	skos:prefLabel "Uniform Resource Locator"@en ;
+	skos:altLabel "URL"@en.
+	skos:definition "A Uniform Resource Locator (URL), commonly informally termed a web address (which term is not defined identically)[1] is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Uniform_Resource_Locator"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .	
+
+:URN a skos:Concept ;
+	skos:prefLabel "Uniform Resource Name"@en ;
+	skos:altLabel "URN"@en.
+	skos:definition "Uniform Resource Name (URN) is the historical name for a Uniform Resource Identifier (URI) that uses the urn scheme. A URI is a string of characters used to identify a name of a web resource. Such identification enables interaction with representations of the web resource over a network, typically the World Wide Web, using specific protocols."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Uniform_Resource_Name"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .	
+	
+:VIAF a skos:Concept ;
+	skos:prefLabel "Virtual International Authority File"@en ;
+	skos:altLabel "VIAF"@en.
+	skos:definition "The Virtual International Authority File (VIAF) is an international authority file. It is a joint project of several national libraries and operated by the Online Computer Library Center (OCLC)."@en ;
+	skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Virtual_International_Authority_File"@en ;
+	skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+	skos:broader :Identifier .	
+
+#############################################################################
+#
+# Up to here
+#
+#############################################################################
 
 :Method a skos:Concept ;
 	skos:prefLabel "Method Type"@en ;
