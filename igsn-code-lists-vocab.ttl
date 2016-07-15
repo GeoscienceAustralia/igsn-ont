@@ -20,6 +20,148 @@
     skos:member :Private,
         :Public .
 
+:all-concepts a skos:Collection ;
+    dcterms:description "All the Concepts in this vocabulary"@en ;
+    dcterms:title "All concepts"@en ;
+    skos:member :ARK,
+        :Auger,
+        :Blast,
+        :Box,
+        :ChainBag,
+        :Collection,
+        :CollectionResource,
+        :ContactPerson,
+        :Corer,
+        :DOI,
+        :Distributor,
+        :Dredge,
+        :Drill,
+        :Editor,
+        :FeatureResource,
+        :FreeFall,
+        :Funder,
+        :Grab,
+        :Gravity,
+        :GravityGiant,
+        :Hammer,
+        :Hand,
+        :Handle,
+        :HostingInstitution,
+        :IGSN,
+        :ISBN,
+        :ISNI,
+        :ISSN,
+        :Kastenlot,
+        :Knife,
+        :LSID,
+        :LineString,
+        :MOCNESCC,
+        :Multi,
+        :MultiLineString,
+        :MultiPoint,
+        :MultiPolygon,
+        :Net,
+        :ORCID,
+        :OtherContributor,
+        :OtherMethod,
+        :PURL,
+        :Piston,
+        :PistonGiant,
+        :Point,
+        :Polygon,
+        :Private,
+        :Probe,
+        :ProjectLeader,
+        :ProjectManager,
+        :ProjectMember,
+        :Public,
+        :RelatedPerson,
+        :ResearchGroup,
+        :Researcher,
+        :RightsHolder,
+        :Rock,
+        :SRID-4326,
+        :SampleResource,
+        :Scallop,
+        :Scoop,
+        :SideSaddle,
+        :Sponsor,
+        :Supervisor,
+        :Trap,
+        :Trawl,
+        :TriggerWeight,
+        :URL,
+        :URN,
+        :UnknownMethod,
+        :VIAF,
+        :Vibrating,
+        :WorkPackageLeader,
+        :hasDocument,
+        :hasEvent,
+        <http://vocabulary.odm2.org/medium/air/>,
+        <http://vocabulary.odm2.org/medium/gas/>,
+        <http://vocabulary.odm2.org/medium/ice/>,
+        <http://vocabulary.odm2.org/medium/liquidAqueous/>,
+        <http://vocabulary.odm2.org/medium/liquidOrganic/>,
+        <http://vocabulary.odm2.org/medium/mineral/>,
+        <http://vocabulary.odm2.org/medium/organism/>,
+        <http://vocabulary.odm2.org/medium/other/>,
+        <http://vocabulary.odm2.org/medium/particulate/>,
+        <http://vocabulary.odm2.org/medium/rock/>,
+        <http://vocabulary.odm2.org/medium/sediment/>,
+        <http://vocabulary.odm2.org/medium/snow/>,
+        <http://vocabulary.odm2.org/medium/soil/>,
+        <http://vocabulary.odm2.org/medium/tissue/>,
+        <http://vocabulary.odm2.org/medium/unknown/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/CTD/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/borehole/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/crossSection/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/depthInterval/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/excavation/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/fieldArea/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/flightline/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/interval/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/observationWell/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/profile/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/quadrat/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/scene/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/shipsTrack/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/site/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/soilPitSection/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/specimen/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/streamGage/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/trajectory/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/transect/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/traverse/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation/>,
+        <http://vocabulary.odm2.org/samplingfeaturetype/weatherStation/>,
+        <http://vocabulary.odm2.org/specimentype/automated/>,
+        <http://vocabulary.odm2.org/specimentype/core/>,
+        <http://vocabulary.odm2.org/specimentype/coreHalfRound/>,
+        <http://vocabulary.odm2.org/specimentype/corePiece/>,
+        <http://vocabulary.odm2.org/specimentype/coreQuarterRound/>,
+        <http://vocabulary.odm2.org/specimentype/coreSection/>,
+        <http://vocabulary.odm2.org/specimentype/coreSectionHalf/>,
+        <http://vocabulary.odm2.org/specimentype/coreSub-Piece/>,
+        <http://vocabulary.odm2.org/specimentype/coreWholeRound/>,
+        <http://vocabulary.odm2.org/specimentype/cuttings/>,
+        <http://vocabulary.odm2.org/specimentype/dredge/>,
+        <http://vocabulary.odm2.org/specimentype/foliageDigestion/>,
+        <http://vocabulary.odm2.org/specimentype/foliageLeaching/>,
+        <http://vocabulary.odm2.org/specimentype/forestFloorDigestion/>,
+        <http://vocabulary.odm2.org/specimentype/grab/>,
+        <http://vocabulary.odm2.org/specimentype/individualSample/>,
+        <http://vocabulary.odm2.org/specimentype/litterFallDigestion/>,
+        <http://vocabulary.odm2.org/specimentype/orientedCore/>,
+        <http://vocabulary.odm2.org/specimentype/other/>,
+        <http://vocabulary.odm2.org/specimentype/petriDishDryDeposition/>,
+        <http://vocabulary.odm2.org/specimentype/precipitationBulk/>,
+        <http://vocabulary.odm2.org/specimentype/rockPowder/>,
+        <http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen/>,
+        <http://vocabulary.odm2.org/specimentype/terrestrialSection/>,
+        <http://vocabulary.odm2.org/specimentype/thinSection/>,
+        <http://vocabulary.odm2.org/specimentype/unknown/> .
+
 :collectionType a skos:Collection ;
     dcterms:description "A collection of concepts within the IGSN's collectionType code list (http://schema.igsn.org/description/1.0/include/collectionType.html)"@en ;
     dcterms:title "Collection Types"@en ;
@@ -206,13 +348,6 @@ igsn:Collection a owl:Class ;
 igsn:SRID a owl:Class ;
     rdfs:subClassOf skos:Concept .
 
-:OtherContributor a igsn:Contributor,
-        skos:Concept ;
-    skos:definition "A contributing agent not elsewhere in the contributorType list"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:prefLabel "Other"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
-
 gml:LineString skos:exactMatch :LineString .
 
 gml:Point skos:exactMatch :Point .
@@ -223,6 +358,16 @@ igsn:Access a owl:Class ;
     rdfs:subClassOf skos:Concept .
 
 igsn:Relation a owl:Class ;
+    rdfs:subClassOf skos:Concept .
+
+:OtherContributor a igsn:Contributor,
+        skos:Concept ;
+    skos:definition "A contributing agent not elsewhere in the contributorType list"@en ;
+    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+
+igsn:Resource a owl:Class ;
     rdfs:subClassOf skos:Concept .
 
 :ARK a igsn:Identifier,
@@ -292,16 +437,6 @@ igsn:Relation a owl:Class ;
     skos:inScheme <http://igsn.org/def/voc/codelists> ;
     skos:prefLabel "Feature Resource"@en ;
     skos:topConceptOf <http://igsn.org/def/voc/codelists> .
-
-:FreeFall a igsn:Method,
-        skos:Concept ;
-    skos:broader :Corer ;
-    skos:broaderTransitive :Corer ;
-    skos:definition "Corer freefall method"@en ;
-    skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:prefLabel "Corer: Freefall"@en ;
-	skos:broader :Corer .
 
 :Funder a igsn:Contributor,
         skos:Concept ;
@@ -425,6 +560,13 @@ igsn:Relation a owl:Class ;
     skos:prefLabel "Persistent uniform resource locator"@en ;
     skos:topConceptOf <http://igsn.org/def/voc/codelists> .
 
+:Private a igsn:Access,
+        skos:Concept ;
+    skos:definition "IGSN's accessType Private"@en ;
+    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:prefLabel "Private"@en ;
+    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+
 :Probe a igsn:Method,
         skos:Concept ;
     skos:definition "Probe method"@en ;
@@ -452,6 +594,13 @@ igsn:Relation a owl:Class ;
     skos:definition "A project member person agent"@en ;
     skos:inScheme <http://igsn.org/def/voc/codelists> ;
     skos:prefLabel "Project Member"@en ;
+    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+
+:Public a igsn:Access,
+        skos:Concept ;
+    skos:definition "IGSN's accessType Public"@en ;
+    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:prefLabel "Public"@en ;
     skos:topConceptOf <http://igsn.org/def/voc/codelists> .
 
 :RelatedPerson a igsn:Contributor,
@@ -906,9 +1055,6 @@ igsn:Relation a owl:Class ;
     skos:inScheme <http://igsn.org/def/voc/codelists> ;
     skos:topConceptOf <http://igsn.org/def/voc/codelists> .
 
-igsn:Resource a owl:Class ;
-    rdfs:subClassOf skos:Concept .
-
 :Auger a igsn:Method,
         skos:Concept ;
     skos:broader :Hand ;
@@ -944,6 +1090,15 @@ igsn:Resource a owl:Class ;
     skos:editorialNote "Term only, no definition"@en ;
     skos:inScheme <http://igsn.org/def/voc/codelists> ;
     skos:prefLabel "Corer: Drill"@en .
+
+:FreeFall a igsn:Method,
+        skos:Concept ;
+    skos:broader :Corer ;
+    skos:broaderTransitive :Corer ;
+    skos:definition "Corer freefall method"@en ;
+    skos:editorialNote "Term only, no definition"@en ;
+    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:prefLabel "Corer: Freefall"@en .
 
 :Gravity a igsn:Method,
         skos:Concept ;
@@ -1105,20 +1260,6 @@ igsn:Resource a owl:Class ;
     skos:narrower :MOCNESCC ;
     skos:narrowerTransitive :MOCNESCC ;
     skos:prefLabel "Net"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
-
-:Private a igsn:Access,
-        skos:Concept ;
-    skos:definition "IGSN's accessType Private"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:prefLabel "Private"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
-
-:Public a igsn:Access,
-        skos:Concept ;
-    skos:definition "IGSN's accessType Public"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:prefLabel "Public"@en ;
     skos:topConceptOf <http://igsn.org/def/voc/codelists> .
 
 igsn:Geometry a owl:Class ;
