@@ -1,4 +1,4 @@
-@prefix : <http://igsn.org/def/voc/codelists/> .
+@prefix : <http://pid.geoscience.gov.au/def/voc/igsn-codelists/> .
 @prefix api: <http://purl.org/linked-data/api/vocab#> .
 @prefix apivc: <http://purl.org/linked-data/api/vocab#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -6,7 +6,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gml: <http://www.opengis.net/gml/> .
-@prefix igsn: <http://igsn.org/def/ont/igsn#> .
+@prefix igsn: <http://pid.geoscience.gov.au/def/ont/igsn#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -363,9 +363,9 @@ igsn:Relation a owl:Class ;
 :OtherContributor a igsn:Contributor,
         skos:Concept ;
     skos:definition "A contributing agent not elsewhere in the contributorType list"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Other"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 igsn:Resource a owl:Class ;
     rdfs:subClassOf skos:Concept .
@@ -375,685 +375,685 @@ igsn:Resource a owl:Class ;
     skos:altLabel "ARK"@en ;
     skos:definition "An Archival Resource Key (ARK) is a Uniform Resource Locator (URL) that is a multi-purpose persistent identifier for information objects of any type."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Archival_Resource_Key"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Archival Resource Key"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Blast a igsn:Method,
         skos:Concept ;
     skos:definition "Blast method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Blast"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Collection a igsn:Collection,
         skos:Concept ;
     skos:definition "IGSN's collectionType Collection"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Collection Type"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :CollectionResource a igsn:Resource,
         skos:Concept ;
     skos:definition "Collection resource type"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Collection Resource"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ContactPerson a igsn:Contributor,
         skos:Concept ;
     skos:definition "A contact person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Contact Person"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :DOI a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "DOI"@en ;
     skos:definition "A digital object identifier (DOI) is a type of persistent identifier used to uniquely identify objects. The DOI system is particularly used for electronic documents such as journal articles."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Digital_object_identifier"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Digital Object Identifier"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Distributor a igsn:Contributor,
         skos:Concept ;
     skos:definition "a distributing agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Distributor"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Editor a igsn:Contributor,
         skos:Concept ;
     skos:definition "an editing person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Editor"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :FeatureResource a igsn:Resource,
         skos:Concept ;
     skos:definition "Feature resource type"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Feature Resource"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Funder a igsn:Contributor,
         skos:Concept ;
     skos:definition "A funding person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Funder"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Grab a igsn:Method,
         skos:Concept ;
     skos:definition "Grab method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Grab"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Handle a igsn:Identifier,
         skos:Concept ;
     skos:definition "The Handle System is a technology specification for assigning, managing, and resolving persistent identifiers for digital objects and other resources on the Internet."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Handle_System"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Handle"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :HostingInstitution a igsn:Contributor,
         skos:Concept ;
     skos:definition "A hosting institution agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Hosting Institution"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :IGSN a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "IGSN"@en ;
     skos:definition "The International Geo Sample Number or IGSN is a sample identification code of typically nine characters."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Geo_Sample_Number"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "International Geo Sample Number"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ISBN a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "ISBN"@en ;
     skos:definition "The International Standard Book Number (ISBN) is a unique numeric commercial book identifier."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Book_Number"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "International Standard Book Number"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ISNI a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "ISNI"@en ;
     skos:definition "The International Standard Name Identifier (ISNI) is an identifier for uniquely identifying the public identities of contributors to media content such as books, TV programmes, and newspaper articles."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Name_Identifier"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "International Standard Name Identifier"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ISSN a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "ISSN"@en ;
     skos:definition "An International Standard Serial Number (ISSN) is an eight-digit serial number used to uniquely identify a serial publication."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/International_Standard_Serial_Number"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "International Standard Serial Number"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :LSID a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "LSID"@en ;
     skos:definition "Life Science Identifiers are a way to name and locate pieces of information on the web. Essentially, an LSID is a unique identifier for some data, and the LSID protocol specifies a standard way to locate the data (as well as a standard way of describing that data)."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/LSID"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Life Science Identifiers"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :MultiLineString a igsn:Geometry,
         skos:Concept ;
     skos:definition "A multi-line string"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Multi-Line String"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :MultiPoint a igsn:Geometry,
         skos:Concept ;
     skos:definition "A multi-point"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Multi-Point"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :MultiPolygon a igsn:Geometry,
         skos:Concept ;
     skos:definition "A multi-polygon"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Multi-Polygon"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ORCID a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "ORCID"@en ;
     skos:definition "ORCID (Open Researcher and Contributor ID) is a nonproprietary alphanumeric code to uniquely identify scientific and other academic authors and contributors."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/ORCID"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Open Researcher and Contributor ID"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :OtherMethod a igsn:Method,
         skos:Concept ;
     skos:definition "Other method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Other Method"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :PURL a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "PURL"@en ;
     skos:definition "A persistent uniform resource locator (PURL) is a uniform resource locator (URL) (i.e., location-based uniform resource identifier or URI) that is used to redirect to the location of the requested web resource."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Persistent uniform resource locator"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Private a igsn:Access,
         skos:Concept ;
     skos:definition "IGSN's accessType Private"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Private"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Probe a igsn:Method,
         skos:Concept ;
     skos:definition "Probe method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Probe"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ProjectLeader a igsn:Contributor,
         skos:Concept ;
     skos:definition "A project leader person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Project Leader"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ProjectManager a igsn:Contributor,
         skos:Concept ;
     skos:definition "A project manager person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Project Manager"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ProjectMember a igsn:Contributor,
         skos:Concept ;
     skos:definition "A project member person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Project Member"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Public a igsn:Access,
         skos:Concept ;
     skos:definition "IGSN's accessType Public"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Public"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :RelatedPerson a igsn:Contributor,
         skos:Concept ;
     skos:definition "A related person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Related Person"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :ResearchGroup a igsn:Contributor,
         skos:Concept ;
     skos:definition "A research group agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Research Group"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Researcher a igsn:Contributor,
         skos:Concept ;
     skos:definition "A researcher person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Researcher"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :RightsHolder a igsn:Contributor,
         skos:Concept ;
     skos:definition "A rights holding agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Rights Holder"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :SRID-4326 a igsn:SRID,
         skos:Concept ;
     skos:definition "An SRID of value 4326"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "4326"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :SampleResource a igsn:Resource,
         skos:Concept ;
     skos:definition "Sample resource type"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Sample Resource"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Scoop a igsn:Method,
         skos:Concept ;
     skos:definition "Scoop method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Scoop"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Sponsor a igsn:Contributor,
         skos:Concept ;
     skos:definition "A sponsoring agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Sponsor"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Supervisor a igsn:Contributor,
         skos:Concept ;
     skos:definition "A supervising person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Supervisor"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Trap a igsn:Method,
         skos:Concept ;
     skos:definition "Trap method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Trap"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Trawl a igsn:Method,
         skos:Concept ;
     skos:definition "Trawl method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Trawl"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :URL a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "URL"@en ;
     skos:definition "A Uniform Resource Locator (URL), commonly informally termed a web address (which term is not defined identically)[1] is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Uniform_Resource_Locator"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Uniform Resource Locator"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :URN a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "URN"@en ;
     skos:definition "Uniform Resource Name (URN) is the historical name for a Uniform Resource Identifier (URI) that uses the urn scheme. A URI is a string of characters used to identify a name of a web resource. Such identification enables interaction with representations of the web resource over a network, typically the World Wide Web, using specific protocols."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Uniform_Resource_Name"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Uniform Resource Name"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :UnknownMethod a igsn:Method,
         skos:Concept ;
     skos:definition "Unknown method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Unknown Method"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :VIAF a igsn:Identifier,
         skos:Concept ;
     skos:altLabel "VIAF"@en ;
     skos:definition "The Virtual International Authority File (VIAF) is an international authority file. It is a joint project of several national libraries and operated by the Online Computer Library Center (OCLC)."@en ;
     skos:editorialNote "Definition from Wikipedia entry: https://en.wikipedia.org/wiki/Virtual_International_Authority_File"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Virtual International Authority File"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :WorkPackageLeader a igsn:Contributor,
         skos:Concept ;
     skos:definition "A work package leader person agent"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "WorkPackageLeader"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :hasDocument a igsn:Relation,
         skos:Concept ;
     skos:definition "The sample has a document"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Has Document"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :hasEvent a igsn:Relation,
         skos:Concept ;
     skos:definition "The sample has an Event"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Has Event"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/air/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/gas/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/ice/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/liquidAqueous/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/liquidOrganic/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/mineral/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/organism/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/other/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/particulate/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/rock/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/sediment/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/snow/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/soil/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/tissue/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/medium/unknown/> a igsn:Material,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/CTD/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/borehole/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/crossSection/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/depthInterval/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/excavation/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/fieldArea/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/flightline/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/interval/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/observationWell/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/profile/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/quadrat/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/scene/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/shipsTrack/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/site/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/soilPitSection/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/specimen/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/streamGage/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/trajectory/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/transect/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/traverse/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/waterQualityStation/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/samplingfeaturetype/weatherStation/> a igsn:Feature,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/automated/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/core/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/coreHalfRound/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/corePiece/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/coreQuarterRound/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/coreSection/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/coreSectionHalf/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/coreSub-Piece/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/coreWholeRound/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/cuttings/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/dredge/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/foliageDigestion/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/foliageLeaching/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/forestFloorDigestion/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/grab/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/individualSample/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/litterFallDigestion/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/orientedCore/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/other/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/petriDishDryDeposition/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/precipitationBulk/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/rockPowder/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/standardReferenceSpecimen/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/terrestrialSection/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/thinSection/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 <http://vocabulary.odm2.org/specimentype/unknown/> a igsn:Sample,
         skos:Concept ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Auger a igsn:Method,
         skos:Concept ;
@@ -1061,7 +1061,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Hand ;
     skos:definition "Hand auger method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Auger"@en .
 
 :Box a igsn:Method,
@@ -1070,7 +1070,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer box method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Box"@en .
 
 :ChainBag a igsn:Method,
@@ -1079,7 +1079,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Dredge ;
     skos:definition "Dredge chain bag method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Chain Bag"@en .
 
 :Drill a igsn:Method,
@@ -1088,7 +1088,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer drill method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Drill"@en .
 
 :FreeFall a igsn:Method,
@@ -1097,7 +1097,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer freefall method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Freefall"@en .
 
 :Gravity a igsn:Method,
@@ -1106,7 +1106,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer gravity method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Gravity"@en .
 
 :GravityGiant a igsn:Method,
@@ -1115,7 +1115,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer gravity giant method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Gravity Giant"@en .
 
 :Hammer a igsn:Method,
@@ -1124,7 +1124,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Hand ;
     skos:definition "Hand hammer method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Hammer"@en .
 
 :Kastenlot a igsn:Method,
@@ -1133,7 +1133,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer Kastelot method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Kastenlot"@en .
 
 :Knife a igsn:Method,
@@ -1142,16 +1142,16 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Hand ;
     skos:definition "Hand knife method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Knife"@en .
 
 :LineString a igsn:Geometry,
         skos:Concept ;
     skos:definition "A line string"@en ;
     skos:exactMatch gml:LineString ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Line String"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Multi a igsn:Method,
         skos:Concept ;
@@ -1159,7 +1159,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer multi method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Multi"@en .
 
 :Piston a igsn:Method,
@@ -1168,7 +1168,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer piston method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Piston"@en .
 
 :PistonGiant a igsn:Method,
@@ -1177,24 +1177,24 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer piston giant method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Piston Giant"@en .
 
 :Point a igsn:Geometry,
         skos:Concept ;
     skos:definition "A point"@en ;
     skos:exactMatch gml:Point ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Point"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Polygon a igsn:Geometry,
         skos:Concept ;
     skos:definition "A polygon"@en ;
     skos:exactMatch gml:Polygon ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Polygon"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Rock a igsn:Method,
         skos:Concept ;
@@ -1202,7 +1202,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer rock method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Rock"@en .
 
 :Scallop a igsn:Method,
@@ -1211,7 +1211,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Dredge ;
     skos:definition "Dredge scallop method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Scallop"@en .
 
 :SideSaddle a igsn:Method,
@@ -1220,7 +1220,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer side saddle method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Side Saddle"@en .
 
 :TriggerWeight a igsn:Method,
@@ -1229,7 +1229,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer trigger weight method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Trigger Weight"@en .
 
 :Vibrating a igsn:Method,
@@ -1238,7 +1238,7 @@ igsn:Resource a owl:Class ;
     skos:broaderTransitive :Corer ;
     skos:definition "Corer vibrating method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "Corer: Vibrating"@en .
 
 :MOCNESCC a igsn:Method,
@@ -1249,18 +1249,18 @@ igsn:Resource a owl:Class ;
         :Net ;
     skos:definition "Net MOCNESCC method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:prefLabel "MOCNESCC"@en .
 
 :Net a igsn:Method,
         skos:Concept ;
     skos:definition "Net method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:narrower :MOCNESCC ;
     skos:narrowerTransitive :MOCNESCC ;
     skos:prefLabel "Net"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 igsn:Geometry a owl:Class ;
     rdfs:subClassOf skos:Concept .
@@ -1269,19 +1269,19 @@ igsn:Geometry a owl:Class ;
         skos:Concept ;
     skos:definition "Dredge method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:narrower :ChainBag,
         :Scallop ;
     skos:narrowerTransitive :ChainBag,
         :Scallop ;
     skos:prefLabel "Dredge"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 :Hand a igsn:Method,
         skos:Concept ;
     skos:definition "Hand method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:narrower :Auger,
         :Hammer,
         :Knife,
@@ -1291,7 +1291,7 @@ igsn:Geometry a owl:Class ;
         :Knife,
         :MOCNESCC ;
     skos:prefLabel "Hand"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 igsn:Identifier a owl:Class ;
     rdfs:subClassOf skos:Concept .
@@ -1312,7 +1312,7 @@ igsn:Sample a owl:Class ;
         skos:Concept ;
     skos:definition "Corer method"@en ;
     skos:editorialNote "Term only, no definition"@en ;
-    skos:inScheme <http://igsn.org/def/voc/codelists> ;
+    skos:inScheme <http://pid.geoscience.gov.au/def/voc/igsn-codelists> ;
     skos:narrower :Box,
         :Drill,
         :FreeFall,
@@ -1340,12 +1340,12 @@ igsn:Sample a owl:Class ;
         :TriggerWeight,
         :Vibrating ;
     skos:prefLabel "Corer"@en ;
-    skos:topConceptOf <http://igsn.org/def/voc/codelists> .
+    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/igsn-codelists> .
 
 igsn:Method a owl:Class ;
     rdfs:subClassOf skos:Concept .
 
-<http://igsn.org/def/voc/codelists> a skos:ConceptScheme ;
+<http://pid.geoscience.gov.au/def/voc/igsn-codelists> a skos:ConceptScheme ;
     dc:creator "Nicholas Car"^^xsd:string ;
     dc:date "2016-07-13T11:00:00.000"^^xsd:string ;
     dcterms:contributor "GA_Car.Nicholas"^^xsd:string ;
