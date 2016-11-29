@@ -3,7 +3,7 @@ This repository contains the International Geo Sample Number's OWL ontology and 
 
 See the ontology's definition at it's namespace location:
 
-(http://pid.geoscience.gov.au/def/ont/igsn)[http://pid.geoscience.gov.au/def/ont/igsn]
+[http://pid.geoscience.gov.au/def/ont/igsn](http://pid.geoscience.gov.au/def/ont/igsn)
 
 
 ## Contact
