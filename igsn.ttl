@@ -1,74 +1,126 @@
-# baseURI: http://pig.geoscience.gov.au/def/igsn
-# imports: http://dublincore.org/2012/06/14/dcterms.rdf
+# baseURI: http://pid.geoscience.gov.au/def/ont/igsn
+# imports: http://def.seegrid.csiro.au/ontology/om/sam-lite
 # imports: http://pid.geoscience.gov.au/def/voc/igsn-codelists/
-# imports: http://purl.org/dc/elements/1.1/
-# imports: http://xmlns.com/foaf/spec/index.rdf
-# imports: https://www.w3.org/2009/08/skos-reference/skos.rdf
+# imports: http://www.opengis.net/ont/geosparql
+# imports: http://www.w3.org/ns/prov-o#
 
-@prefix : <http://pig.geoscience.gov.au/def/igsn#> .
+@prefix : <http://pid.geoscience.gov.au/def/ont/igsn#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix igsn-codelists: <http://pid.geoscience.gov.au/def/voc/igsn-codelists/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://pig.geoscience.gov.au/def/igsn>
+<http://def.seegrid.csiro.au/ontology/om/sam-lite#samplingLocation>
+  rdfs:subPropertyOf <http://www.opengis.net/ont/geosparql#hasGeometry> ;
+.
+<http://pid.geoscience.gov.au/def/ont/igsn>
   rdf:type owl:Ontology ;
-  dc:creator "Nicholas Car"^^xsd:string ;
-  dcterms:created "2016-09-15"^^xsd:string ;
-  rdfs:comment "This ontology is an OWL representation of the IGSN descriptive metadata v1.0 described at https://github.com/IGSN/metadata/wiki/IGSN-Descriptive-Metadata-Version-1.0"^^xsd:string ;
-  rdfs:label "IGSN metadata ontology"^^xsd:string ;
-  owl:imports <http://dublincore.org/2012/06/14/dcterms.rdf> ;
+  dc:creator "Mikołaj Car"@pl ;
+  dc:creator "Nicholas Car"@en ;
+  dc:publisher "Geoscience Australia"@en ;
+  dc:rights "Copyright © 2016 Geoscience Australia"@en ;
+  dcterms:created "2016-11-29"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-8742-7730> ;
+  dcterms:description """This is the OWL ontology version of the International Geo Sample Number (IGSN) descriptive metadata XML schema (http://schema.igsn.org/description/). While it is based on the IGSN Schema, draws its structure and most of its formulation from several upper and domain OWL ontologies, namely PROV, Dublin Core, (upper ontologies) and SAM-LITE, GeoSPARQL (geo/spatial domain) ontologies. 
+
+All but one od the classes declared in this ontology provide superclasses for all of the controlled code lists of metadata terms defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/ont/igsn-codelists). 
+
+The single other class declared is 'Sample' which is an equivalent class of SAMFL's Specimen but is decared in order to impose a number of constraints on 'Samples' in order to ensure minimal metadata.
+
+Since all of the classes and properties used in this ontology draw from those previously mentioned upper ontologies and foundational OWL ontologies such as RDF, RDFS and OWL itself, it is possible to detail much information for Samples using them in common patterns. For example, declaring multiple related people to a Sample can be done by using PROV-O's prov:qualifiedAttribution pattern with different roles declared for those Agents (People/Orgs). This reuse of existing ontologies is desirable as it is likley that they are widely understood and well formed."""@en ;
+  dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
+  dcterms:modified "2016-11-29"^^xsd:date ;
+  dcterms:publisher <http://pid.geoscience.gov.au/org/ga> ;
+  rdfs:comment """This is the OWL ontology version of the International Geo Sample Number (IGSN) descriptive metadata XML schema (http://schema.igsn.org/description/). While it is based on the IGSN Schema, draws its structure and most of its formulation from several upper and domain OWL ontologies, namely PROV, Dublin Core, (upper ontologies) and SAM-LITE, GeoSPARQL (geo/spatial domain) ontologies. 
+
+All but one od the classes declared in this ontology provide superclasses for all of the controlled code lists of metadata terms defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/ont/igsn-codelists). 
+
+The single other class declared is 'Sample' which is an equivalent class of SAMFL's Specimen but is decared in order to impose a number of constraints on 'Samples' in order to ensure minimal metadata.
+
+Since all of the classes and properties used in this ontology draw from those previously mentioned upper ontologies and foundational OWL ontologies such as RDF, RDFS and OWL itself, it is possible to detail much information for Samples using them in common patterns. For example, declaring multiple related people to a Sample can be done by using PROV-O's prov:qualifiedAttribution pattern with different roles declared for those Agents (People/Orgs). This reuse of existing ontologies is desirable as it is likley that they are widely understood and well formed."""@en ;
+  rdfs:label "The IGSN Ontology" ;
+  owl:imports <http://def.seegrid.csiro.au/ontology/om/sam-lite> ;
   owl:imports igsn-codelists: ;
-  owl:imports dc: ;
-  owl:imports <http://xmlns.com/foaf/spec/index.rdf> ;
-  owl:imports <https://www.w3.org/2009/08/skos-reference/skos.rdf> ;
-  owl:versionInfo "1.0"^^xsd:string ;
+  owl:imports <http://www.opengis.net/ont/geosparql> ;
+  owl:imports <http://www.w3.org/ns/prov-o#> ;
+  owl:versionInfo "1.0" ;
 .
-:AlternateIdentifier
+:AccessRights
   rdf:type owl:Class ;
-  rdfs:label "Alternate Identifier"^^xsd:string ;
+  rdfs:comment "Public, Private etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s accessType collection."@en ;
+  rdfs:label "Access Rights"@en ;
+  rdfs:subClassOf skos:Concept ;
 .
-:CollectionIdentifier
+:FeatureOfInterestType
   rdf:type owl:Class ;
-  rdfs:label "Collection Identifier"^^xsd:string ;
+  rdfs:comment "Borehole, Survey etc. Controlled list of classes defined in Geosceince Australia's Feature of Interest Types vocabulary (http://pid.geoscience.gov.au/def/voc/featureofinteresttypes)'s."@en ;
+  rdfs:label "Feature of Interest Type"@en ;
+  rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#SamplingFeature> ;
+  rdfs:subClassOf skos:Concept ;
 .
-:Resource
+:IdentifierType
   rdf:type owl:Class ;
-  rdfs:label "Resource"^^xsd:string ;
+  rdfs:comment "IGSN, DOI, Handle, URN etc. An identifier other than this item's URI (which we treat as its primary identifier in this ontology). Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s methodType collection."@en ;
+  rdfs:label "Identifier Type"@en ;
+  rdfs:subClassOf skos:Concept ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://www.w3.org/ns/prov#value> ;
+    ] ;
 .
-:alternateIdentifier
-  rdf:type rdf:Property ;
-  rdfs:domain :Resource ;
-  rdfs:label "alternateIdentifier"^^xsd:string ;
+:MaterialType
+  rdf:type owl:Class ;
+  rdfs:comment "Rock, Ice etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s materialType collection."@en ;
+  rdfs:label "Material Type"@en ;
+  rdfs:subClassOf skos:Concept ;
+  skos:altLabel "Material Class"@en ;
 .
-:collector
-  rdf:type owl:AnnotationProperty ;
-  rdfs:domain :Resource ;
-  rdfs:label "collector"^^xsd:string ;
-  rdfs:range xsd:string ;
+:MethodType
+  rdf:type owl:Class ;
+  rdfs:comment "Auger, Drill, Hand etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s methodType collection."@en ;
+  rdfs:label "Method Type"@en ;
+  rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#Process> ;
+  rdfs:subClassOf skos:Concept ;
 .
-:identifier
-  rdf:type rdf:Property ;
-  rdfs:domain :AlternateIdentifier ;
-  rdfs:domain :CollectionIdentifier ;
-  rdfs:domain :Resource ;
-  rdfs:label "identifier"^^xsd:string ;
-  rdfs:range xsd:string ;
+:Sample
+  rdf:type owl:Class ;
+  rdfs:comment "A basic equivalent class of samfl:Specimen. This class has been made (rather then just using samfl:Specimen itself) only to enforce a series of constraints on instances so we have minimal metadata for them."@en ;
+  rdfs:label "Sample"@en ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://def.seegrid.csiro.au/ontology/om/sam-lite#currentLocation> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://def.seegrid.csiro.au/ontology/om/sam-lite#relatedSamplingFeature> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://def.seegrid.csiro.au/ontology/om/sam-lite#samplingElevation> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://www.w3.org/ns/prov#qualifiedAttribution> ;
+    ] ;
+  owl:equivalentClass <http://def.seegrid.csiro.au/ontology/om/sam-lite#Specimen> ;
 .
-:identifierType
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain :AlternateIdentifier ;
-  rdfs:domain :CollectionIdentifier ;
-  rdfs:domain :Resource ;
-  rdfs:label "identifierType"^^xsd:string ;
-  rdfs:range <http://pid.geoscience.gov.au/def/ont/igsn#Identifier> ;
-.
-:name
-  rdf:type rdf:Property ;
-  rdfs:domain :Resource ;
-  rdfs:label "name"^^xsd:string ;
-  rdfs:range xsd:string ;
+:SampleType
+  rdf:type owl:Class ;
+  rdfs:comment "Derdge, Cuttings, Rock Powder etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s sampleType collection."@en ;
+  rdfs:label "Sample Type"@en ;
+  rdfs:subClassOf skos:Concept ;
 .
