@@ -4,9 +4,10 @@ This repository contains the International Geo Sample Number's OWL ontology and 
 ![](igsn.png)
 The required classes and properties for each ontology instance.
 
-See the ontology's definition at it's namespace location:
+See the ontology's definition at it's namespace location: <http://pid.geoscience.gov.au/def/ont/ga/igsn>
 
-[http://pid.geoscience.gov.au/def/ont/igsn](http://pid.geoscience.gov.au/def/ont/igsn)
+## Vocabularies
+The code lists used in cojunction with this ontology (for things like Sample Type) are published in a separate vocabulay: <http://pid.geoscience.gov.au/def/voc/igsn-codelists>
 
 ## Examples
 A sample (igsn:AU2648696) is exported from the Geoscience Australia Samples database in XML as per [Sample e.g. 1 XML](examples/sample_eg1.xml). The IGSN ontology version of that sample is given in [Sample e.g. 1 IGSN ontology turtle RDF file](examples/sample_eg1.ttl).
