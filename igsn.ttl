@@ -1,10 +1,10 @@
-# baseURI: http://pid.geoscience.gov.au/def/ont/igsn
+# baseURI: http://pid.geoscience.gov.au/def/ont/ga/igsn
 # imports: http://def.seegrid.csiro.au/ontology/om/sam-lite
 # imports: http://pid.geoscience.gov.au/def/voc/igsn-codelists/
 # imports: http://www.opengis.net/ont/geosparql
 # imports: http://www.w3.org/ns/prov-o#
 
-@prefix : <http://pid.geoscience.gov.au/def/ont/igsn#> .
+@prefix : <http://pid.geoscience.gov.au/def/ont/ga/igsn#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix igsn-codelists: <http://pid.geoscience.gov.au/def/voc/igsn-codelists/> .
@@ -17,7 +17,7 @@
 <http://def.seegrid.csiro.au/ontology/om/sam-lite#samplingLocation>
   rdfs:subPropertyOf <http://www.opengis.net/ont/geosparql#hasGeometry> ;
 .
-<http://pid.geoscience.gov.au/def/ont/igsn>
+<http://pid.geoscience.gov.au/def/ont/ga/igsn>
   rdf:type owl:Ontology ;
   dc:creator "Mikołaj Car"@pl ;
   dc:creator "Nicholas Car"@en ;
@@ -27,7 +27,7 @@
   dcterms:creator <https://orcid.org/0000-0002-8742-7730> ;
   dcterms:description """This is an OWL ontology version of the International Geo Sample Number (IGSN) descriptive metadata XML schema (http://schema.igsn.org/description/) created by Geoscience Australia to describe samples in their Samples Register (http://pid.geoscience.gov.au/sample/). While it is based on the IGSN Schema, draws its structure and most of its formulation from several upper and domain OWL ontologies, namely PROV, Dublin Core, (upper ontologies) and SAM-LITE, GeoSPARQL (geo/spatial domain) ontologies. 
 
-All but one od the classes declared in this ontology provide superclasses for all of the controlled code lists of metadata terms defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/ont/igsn-codelists). 
+All but one od the classes declared in this ontology provide superclasses for all of the controlled code lists of metadata terms defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/ont/ga/igsn-codelists). 
 
 The single other class declared is 'Sample' which is an equivalent class of SAMFL's Specimen but is decared in order to impose a number of constraints on 'Samples' in order to ensure minimal metadata.
 

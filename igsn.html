@@ -4,12 +4,15 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>The IGSN Ontology</title>
 		<title>The IGSN Ontology</title>
-		<link href="http://eelst.cs.unibo.it/apps/LODE/owl.css" rel="stylesheet" type="text/css" />
-		<link href="http://eelst.cs.unibo.it/apps/LODE/Primer.css" rel="stylesheet" type="text/css" />
-		<link href="http://eelst.cs.unibo.it/apps/LODE/rec.css" rel="stylesheet" type="text/css" />
-		<link href="http://eelst.cs.unibo.it/apps/LODE/extra.css" rel="stylesheet" type="text/css" />
-		<link rel="shortcut icon" href="http://eelst.cs.unibo.it/apps/LODE/favicon.ico" />
-		<script src="http://eelst.cs.unibo.it/apps/LODE/jquery.js"></script><script src="http://eelst.cs.unibo.it/apps/LODE/jquery.scrollTo.js"></script><script src="/static/js/marked.min.js"></script><script>
+		<link href="http://ldweb.ga.gov.au/def/ont/static/LODE/owl.css" rel="stylesheet" type="text/css" />
+		<link href="http://ldweb.ga.gov.au/def/ont/static/LODE/Primer.css" rel="stylesheet" type="text/css" />
+		<link href="http://ldweb.ga.gov.au/def/ont/static/LODE/rec.css" rel="stylesheet" type="text/css" />
+		<link href="http://ldweb.ga.gov.au/def/ont/static/LODE/extra.css" rel="stylesheet" type="text/css" />
+		<link rel="shortcut icon" href="http://ldweb.ga.gov.au/def/ont/static/LODE/favicon.ico" />
+		<script src="http://ldweb.ga.gov.au/def/ont/static/LODE/jquery.js"></script>
+		<script src="http://ldweb.ga.gov.au/def/ont/static/LODE/jquery.scrollTo.js"></script>
+		<script src="http://ldweb.ga.gov.au/def/ont/static/LODE/marked.min.js"></script>
+		<script>
 			$(document).ready(
 			    function () {
 			    	jQuery(".markdown").each(function(el){
@@ -27,7 +30,7 @@
 			<h1>The IGSN Ontology</h1>
 			<dl>
 				<dt>IRI:</dt>
-				<dd>http://pid.geoscience.gov.au/def/ont/igsn</dd>
+				<dd>http://pid.geoscience.gov.au/def/ont/ga/igsn</dd>
 			</dl>
 			<dl>
 				<dt>Current version:</dt>
@@ -53,15 +56,15 @@
 			</dl>
 			<dl>
 				<dt>Other visualisation:</dt>
-				<dd><a href="http://pid.geoscience.gov.au/def/ont/igsn.ttl">Ontology source</a></dd>
+				<dd><a href="http://pid.geoscience.gov.au/def/ont/ga/igsn.ttl">Ontology source</a></dd>
 			</dl>
-			<div class="copyright"><span class="markdown">Copyright © 2016 Geoscience Australia</span></div>
+			<div class="copyright"><span class="markdown">Copyright &copy; 2016 Geoscience Australia</span></div>
 		</div>
 		<hr />
 		<h2>Abstract</h2>
 		<span class="markdown">This is an OWL ontology version of the International Geo Sample Number (IGSN) descriptive metadata XML schema (http://schema.igsn.org/description/) created by Geoscience Australia to describe samples in their Samples Register (http://pid.geoscience.gov.au/sample/). While it is based on the IGSN Schema, draws its structure and most of its formulation from several upper and domain OWL ontologies, namely PROV, Dublin Core, (upper ontologies) and SAM-LITE, GeoSPARQL (geo/spatial domain) ontologies.  
 
-		All but one od the classes declared in this ontology provide superclasses for all of the controlled code lists of metadata terms defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/ont/igsn-codelists). 
+		All but one od the classes declared in this ontology provide superclasses for all of the controlled code lists of metadata terms defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/ont/ga/igsn-codelists). 
 
 		The single other class declared is 'Sample' which is an equivalent class of SAMFL's Specimen but is decared in order to impose a number of constraints on 'Samples' in order to ensure minimal metadata.  
 		
@@ -76,18 +79,18 @@
 		<div id="classes">
 			<h2>Classes</h2>
 			<ul class="hlist">
-				<li><a href="#d4e73" title="http://pid.geoscience.gov.au/def/ont/igsn#AccessRights">Access Rights</a></li>
-				<li><a href="#d4e86" title="http://pid.geoscience.gov.au/def/ont/igsn#FeatureOfInterestType">Feature of Interest Type</a></li>
-				<li><a href="#d4e102" title="http://pid.geoscience.gov.au/def/ont/igsn#IdentifierType">Identifier Type</a></li>
-				<li><a href="#d4e126" title="http://pid.geoscience.gov.au/def/ont/igsn#MaterialType">Material Type</a></li>
-				<li><a href="#d4e142" title="http://pid.geoscience.gov.au/def/ont/igsn#MethodType">Method Type</a></li>
-				<li><a href="#d4e158" title="http://pid.geoscience.gov.au/def/ont/igsn#Sample">Sample</a></li>
-				<li><a href="#d4e225" title="http://pid.geoscience.gov.au/def/ont/igsn#SampleType">Sample Type</a></li>
+				<li><a href="#d4e73" title="http://pid.geoscience.gov.au/def/ont/ga/igsn#AccessRights">Access Rights</a></li>
+				<li><a href="#d4e86" title="http://pid.geoscience.gov.au/def/ont/ga/igsn#FeatureOfInterestType">Feature of Interest Type</a></li>
+				<li><a href="#d4e102" title="http://pid.geoscience.gov.au/def/ont/ga/igsn#IdentifierType">Identifier Type</a></li>
+				<li><a href="#d4e126" title="http://pid.geoscience.gov.au/def/ont/ga/igsn#MaterialType">Material Type</a></li>
+				<li><a href="#d4e142" title="http://pid.geoscience.gov.au/def/ont/ga/igsn#MethodType">Method Type</a></li>
+				<li><a href="#d4e158" title="http://pid.geoscience.gov.au/def/ont/ga/igsn#Sample">Sample</a></li>
+				<li><a href="#d4e225" title="http://pid.geoscience.gov.au/def/ont/ga/igsn#SampleType">Sample Type</a></li>
 			</ul>
 			<div id="d4e73" class="entity">
-				<a name="http://pid.geoscience.gov.au/def/ont/igsn#AccessRights"></a>
+				<a name="http://pid.geoscience.gov.au/def/ont/ga/igsn#AccessRights"></a>
 				<h3>Access Rights<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
-				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/igsn#AccessRights</p>
+				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/ga/igsn#AccessRights</p>
 				<div class="comment"><span class="markdown">Public, Private etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s accessType collection.</span></div>
 				<dl class="description">
 					<dt>has super-classes</dt>
@@ -95,9 +98,9 @@
 				</dl>
 			</div>
 			<div id="d4e86" class="entity">
-				<a name="http://pid.geoscience.gov.au/def/ont/igsn#FeatureOfInterestType"></a>
+				<a name="http://pid.geoscience.gov.au/def/ont/ga/igsn#FeatureOfInterestType"></a>
 				<h3>Feature of Interest Type<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
-				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/igsn#FeatureOfInterestType</p>
+				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/ga/igsn#FeatureOfInterestType</p>
 				<div class="comment"><span class="markdown">Borehole, Survey etc. Controlled list of classes defined in Geosceince Australia's Feature of Interest Types vocabulary (http://pid.geoscience.gov.au/def/voc/featureofinteresttypes)'s.</span></div>
 				<dl class="description">
 					<dt>has super-classes</dt>
@@ -106,9 +109,9 @@
 				</dl>
 			</div>
 			<div id="d4e102" class="entity">
-				<a name="http://pid.geoscience.gov.au/def/ont/igsn#IdentifierType"></a>
+				<a name="http://pid.geoscience.gov.au/def/ont/ga/igsn#IdentifierType"></a>
 				<h3>Identifier Type<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
-				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/igsn#IdentifierType</p>
+				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/ga/igsn#IdentifierType</p>
 				<div class="comment"><span class="markdown">IGSN, DOI, Handle, URN etc. An identifier other than this item's URI (which we treat as its primary identifier in this ontology). Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s methodType collection.</span></div>
 				<dl class="description">
 					<dt>has super-classes</dt>
@@ -117,9 +120,9 @@
 				</dl>
 			</div>
 			<div id="d4e126" class="entity">
-				<a name="http://pid.geoscience.gov.au/def/ont/igsn#MaterialType"></a>
+				<a name="http://pid.geoscience.gov.au/def/ont/ga/igsn#MaterialType"></a>
 				<h3>Material Type<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
-				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/igsn#MaterialType</p>
+				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/ga/igsn#MaterialType</p>
 				<div class="comment"><span class="markdown">Rock, Ice etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s materialType collection.</span></div>
 				<dl class="description">
 					<dt>has super-classes</dt>
@@ -127,9 +130,9 @@
 				</dl>
 			</div>
 			<div id="d4e142" class="entity">
-				<a name="http://pid.geoscience.gov.au/def/ont/igsn#MethodType"></a>
+				<a name="http://pid.geoscience.gov.au/def/ont/ga/igsn#MethodType"></a>
 				<h3>Method Type<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
-				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/igsn#MethodType</p>
+				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/ga/igsn#MethodType</p>
 				<div class="comment"><span class="markdown">Auger, Drill, Hand etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s methodType collection.</span></div>
 				<dl class="description">
 					<dt>has super-classes</dt>
@@ -138,9 +141,9 @@
 				</dl>
 			</div>
 			<div id="d4e158" class="entity">
-				<a name="http://pid.geoscience.gov.au/def/ont/igsn#Sample"></a>
+				<a name="http://pid.geoscience.gov.au/def/ont/ga/igsn#Sample"></a>
 				<h3>Sample<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
-				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/igsn#Sample</p>
+				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/ga/igsn#Sample</p>
 				<div class="comment"><span class="markdown">A basic equivalent class of samfl:Specimen. This class has been made (rather then just using samfl:Specimen itself) only to enforce a series of constraints on instances so we have minimal metadata for them.</span></div>
 				<dl class="description">
 					<dt>has super-classes</dt>
@@ -152,9 +155,9 @@
 				</dl>
 			</div>
 			<div id="d4e225" class="entity">
-				<a name="http://pid.geoscience.gov.au/def/ont/igsn#SampleType"></a>
+				<a name="http://pid.geoscience.gov.au/def/ont/ga/igsn#SampleType"></a>
 				<h3>Sample Type<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
-				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/igsn#SampleType</p>
+				<p><strong>IRI:</strong> http://pid.geoscience.gov.au/def/ont/ga/igsn#SampleType</p>
 				<div class="comment"><span class="markdown">Derdge, Cuttings, Rock Powder etc. Controlled list of classes defined in the IGSN Code Lists vocabulary (http://pid.geoscience.gov.au/def/voc/igsn-codelists)'s sampleType collection.</span></div>
 				<dl class="description">
 					<dt>has super-classes</dt>
@@ -166,7 +169,7 @@
 			<h2>Namespace Declarations <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 			<dl>
 				<dt><em>default namespace</em></dt>
-				<dd>http://pid.geoscience.gov.au/def/ont/igsn#</dd>
+				<dd>http://pid.geoscience.gov.au/def/ont/ga/igsn#</dd>
 				<dt>by</dt>
 				<dd>http://creativecommons.org/licenses/by/</dd>
 				<dt>dc</dt>
